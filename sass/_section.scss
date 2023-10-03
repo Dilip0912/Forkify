@@ -1,0 +1,21 @@
+.section{
+    display: flex;
+}
+.section--left{
+    width: 40%;
+    height: 58rem;
+    background-color: white;
+}
+.section--right{
+    // background-color: black;
+    width: 60%;
+
+    &--heading{
+        margin-left: 8rem;
+        font-size: 1.5rem;
+    }
+    svg{
+        transform: translateY(0.8rem);
+        fill: orangered;
+    }
+}

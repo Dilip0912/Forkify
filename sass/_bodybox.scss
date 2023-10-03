@@ -1,0 +1,14 @@
+$color1: rgb(234, 193, 116);
+$color2: rgba(208, 135, 0, 0.713);
+$color-gradient : linear-gradient(to left, $color2,$color1);
+
+body{
+    background-image: $color-gradient;
+}
+.content{
+    background-color: rgb(237, 231, 233);
+    margin: 3.5rem auto;
+    max-width: 70rem;
+    height: 65rem;
+    border-radius: 0.7rem;
+}

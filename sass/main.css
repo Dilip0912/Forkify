@@ -1,0 +1,102 @@
+svg {
+  height: 2.3rem;
+  width: 1.4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header--logo {
+  height: 2.8rem;
+  margin: 2rem;
+}
+
+.header--search {
+  display: flex;
+  height: 3rem;
+  margin-top: 2rem;
+}
+.header--search:focus-within {
+  transform: translateY(-5px);
+}
+.header--search--input {
+  width: 20rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+.header--search--input:focus {
+  outline: none;
+}
+.header--search--btn {
+  background-image: linear-gradient(to left, rgba(208, 135, 0, 0.713), rgb(234, 193, 116));
+  border-radius: 1.5rem;
+  width: 10rem;
+  border: none;
+  position: relative;
+  left: -4rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.header--search--btn:focus {
+  width: 12rem;
+}
+
+.header--navbar {
+  display: flex;
+  transform: translateY(-0.8rem);
+}
+.header--navbar--btn {
+  background: none;
+  border: none;
+  height: 6rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.header--navbar--btn:hover {
+  background-color: lightgrey;
+}
+.header--navbar--btn--bookmark {
+  margin-right: 2.5rem;
+}
+.header--navbar svg {
+  fill: rgb(241, 91, 16);
+  transform: translateY(0.8rem);
+}
+
+body {
+  background-image: linear-gradient(to left, rgba(208, 135, 0, 0.713), rgb(234, 193, 116));
+}
+
+.content {
+  background-color: rgb(237, 231, 233);
+  margin: 3.5rem auto;
+  max-width: 70rem;
+  height: 65rem;
+  border-radius: 0.7rem;
+}
+
+.section {
+  display: flex;
+}
+
+.section--left {
+  width: 40%;
+  height: 58rem;
+  background-color: white;
+}
+
+.section--right {
+  width: 60%;
+}
+.section--right--heading {
+  margin-left: 8rem;
+  font-size: 1.5rem;
+}
+.section--right svg {
+  transform: translateY(0.8rem);
+  fill: orangered;
+}/*# sourceMappingURL=main.css.map */

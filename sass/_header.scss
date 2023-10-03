@@ -1,0 +1,76 @@
+svg{
+    height: 2.3rem;
+    width: 1.4rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    &--logo{
+        height: 2.8rem;
+        margin: 2rem;
+    }
+}
+
+.header--search{
+    display: flex;
+    height: 3rem;
+    margin-top: 2rem;
+
+    &:focus-within{
+        transform: translateY(-5px);     
+    }
+
+    &--input{
+        width: 20rem;
+        border-radius: 1.5rem;
+        border: none;
+        font-size: 1rem;
+        padding-left: 2rem;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &--btn{
+        background-image: linear-gradient(to left, rgba(208, 135, 0, 0.713),rgb(234, 193, 116));
+        border-radius: 1.5rem;
+        width: 10rem;
+        border: none;
+        position: relative;
+        left: -4rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-family: 'Courier New', Courier, monospace;
+
+        &:focus{
+            width: 12rem;
+        }
+    }    
+}
+
+//navbar
+.header--navbar{
+    display: flex;
+    transform: translateY(-0.8rem);
+
+    &--btn{
+        background: none;
+        border: none;
+        height: 6rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        &:hover{
+            background-color: lightgrey;
+        }
+        // width: 15rem;
+    }
+    &--btn--bookmark{
+        margin-right: 2.5rem;
+    }
+    svg{
+        fill: rgb(241, 91, 16); 
+        transform: translateY(0.8rem);     
+    }
+}
